@@ -1,0 +1,148 @@
+/* 
+=========================================
+========== importing other css ===========
+========== files to this files ==============
+=========================================
+*/
+
+@import "header.css";
+@import "2nd & 3th sections.css";
+@import "4th, 5th & 6th sections.css";
+@import "last section & footer.css";
+@import "pseudo.css";
+@import "first queries.css";
+@import "sec queries.CSS";
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* 
+=========================================
+========== just some variables ============
+=========================================
+*/
+
+:root{
+
+    /* primary colors */
+    --clr-black: hsl(254, 23%, 11%);
+    --clr-orange: hsl(20, 98%, 52%);
+    --clr-blue: hsl(255, 84%, 57%);
+
+    --clr-blue-hover: hsl(255, 91%, 51%);
+    --clr-black-hover: hsl(253, 13%, 21%);
+    --clr-orange-hover: hsl(13, 100%, 50%);
+
+    /* netural colors */
+    --clr-kinda-white: hsl(46, 100%, 96%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-text: hsla(254, 16%, 78%, 1);
+    --clr-other-text: hsl(257, 7%, 41%);
+
+    /* fonw sizes */
+    --fs-h1: 124px;
+    --fs-h2: 54px;
+    --fs-h3: 26px;
+    --fs-h4: 22px;
+    --fs-para1: 18px;
+    --fs-para2: 16px;
+
+    --margin-left: 135px;
+}
+
+/* 
+=========================================
+========== to erase the white ===========
+========== left over space ==============
+=========================================
+*/
+
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: var(--clr-kinda-white);
+  height: 100%;
+  margin: 0;
+  font-family: 'Albert Sans', sans-serif;
+  overflow-x: hidden !important;
+}
+
+
+
+
+/* =============================
+========== attributions ========
+================================*/
+
+
+
+
+.attribution {
+    font-size: 16px; 
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transition: .5s;
+    color: hsla(0, 0%, 54%, 0.523);
+    margin-bottom: 18px;
+}
+
+.attribution a {
+    color: hsla(200, 74%, 45%, 0.726); 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.mob{
+  display: none;
+}
+
+.hidden{
+  display: none !important;
+}
+
+.sponser-hidden{
+  display: none;
+}
+
+@media only screen and (max-width: 475px){}
+
+
+/* 
+
+<p class="attribution">
+          Challenge by
+          <a class="att-link1"
+            href="https://www.frontendmentor.io?ref=challenge">
+            Frontend Mentor.</a>
+          <br> Coded by
+          <a class="att-link2"
+            href="https://mohammadsvioan.github.io/my-updated-website/">
+            mohammad alteab.</a>
+  </p>
+
+*/

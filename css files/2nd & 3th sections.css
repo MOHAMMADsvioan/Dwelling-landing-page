@@ -1,0 +1,207 @@
+/* =======================
+======== sec-section =====
+========================== */
+
+
+.sec-section{
+    min-width: 1440px;
+    height: 650px;
+    background-color: var(--clr-blue);
+    padding: 150px 0;
+}
+
+.sec-section .para{
+    display: flex;
+}
+
+.sec-section .para h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-h2);
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: var(--clr-white);
+    margin: 0 0 0 var(--margin-left);
+    max-width: 570px;
+}
+
+.sec-section .para p{
+    width: 470px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--fs-para1);
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-left: var(--margin-left);
+}
+
+.numbers{
+    margin: 70px 288px 70px 336px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.num-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.num-group .num{
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-h2);
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: var(--clr-white);
+}
+
+.num-text{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--fs-para1);
+    line-height: 28px;
+    color: var(--clr-white);
+    opacity: 0.8;
+}
+
+
+
+/* =======================
+======== third-section =====
+========================== */
+
+
+
+.third-section{
+    padding: 150px var(--margin-left);
+    background-color: var(--clr-white);
+    min-width: 100%;
+    display: flex;
+}
+
+
+.third-page-img{
+    border-radius: 12px;
+}
+
+.agent-container{
+    width: 218px;
+    height: 238px;
+    position: absolute;
+    width: 218px;
+    height: 238px;
+    left: 487px;
+    top: 2155px;
+    background: var(--clr-white);
+    box-shadow: 14px 4px 24px 
+    rgba(102, 55, 238, 0.07);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.agent-container img{
+    width: 60px;
+    height: 60px;
+}
+
+.agent-container .name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-para1);
+    line-height: 28px;
+    text-align: center;
+    color: var(--clr-black);
+}
+
+.agent-container .job{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--clr-other-text);
+    margin-bottom: 10px;
+}
+
+.agent-container button{
+    width: 122px;
+    height: 42px;
+    background: #6637EE;
+    border-radius: 4px;
+    box-shadow: 14px 4px 24px 
+    rgba(102, 55, 238, 0.07);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.agent-container button p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-para2);
+    line-height: 26px;
+    text-align: center;
+    transition: .5s;
+    color: var(--clr-white);
+    z-index: 5;
+}
+
+
+.third-sec-para{
+    max-width: 470px;
+    margin-left: var(--margin-left);
+}
+
+.third-sec-para h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-h2);
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: var(--clr-black);
+    margin-bottom: 20px;
+}
+
+.third-sec-para p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--clr-other-text);
+    margin-bottom: 40px;
+}
+
+.third-sec-para button{
+    background: var(--clr-orange);
+    border-radius: 6px;
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.third-sec-para button p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-para1);
+    line-height: 28px;
+    text-align: center;
+    color: var(--clr-white);
+    transition: .5s;
+    z-index: 5;
+    margin-bottom: 0 !important;
+}

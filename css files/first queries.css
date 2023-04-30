@@ -1,0 +1,278 @@
+/* queries for the first, second, 
+third section, and the navbar */
+
+@media only screen and (max-width: 475px){
+
+    body{
+        min-width: 100vw !important;
+    }
+
+    :root{
+        --margin-left: 18px !important;
+    }
+
+    .mob{
+        display: block !important;
+    }
+
+    .desk{
+        display: none !important;
+    }
+
+    nav .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between !important; 
+        margin-bottom: 30px;
+        position: relative;
+        height: 75% !important;
+    }
+
+    nav .menu{
+        position: absolute;
+        top: 120px;
+        left: 30px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: center;
+        min-width: 330px;
+        min-height: 325px;
+        box-shadow: 2px 4px 15px -8px rgba(0,0,0,1);
+       -webkit-box-shadow: 2px 4px 15px -8px rgba(0,0,0,1);
+        -moz-box-shadow: 2px 4px 15px -8px rgba(0,0,0,1);
+        padding: 20px;
+        font-weight: bold;
+        transition: .5s ease-in-out;
+        transform: scale(0, 0) translate(-400px, -400px);
+        z-index: 6;
+    }
+
+    .register{
+        margin-left: 0;
+    }
+
+    nav .menu ul::after{
+        content: '';
+        width: 300px;
+        height: 1px;
+        background-color: var(--clr-other-text);
+        position: absolute;
+        top: 240px;
+        left: -79px;
+
+    }
+
+    .menu-scale{
+        transform: scale(1, 1) translate(0px, 0px) !important;
+    }
+
+    .nav-link{
+        font-weight: 700;
+        margin: 10px 0 !important;
+        cursor: pointer;
+        transition: .5s;
+        display: block;
+    }
+
+    nav .menu ul li a::after{
+        display: none;
+    }
+
+    .ham{
+        display: block;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .close{
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    header .images{
+        width: 338.5px;
+        height: 104.15px;
+    }
+
+    .header-img{
+        width: 78.12px;
+        height: 95.47px;
+    }
+
+    h1{
+        font-size: 36px;
+        line-height: 46px;
+        letter-spacing: -0.02em;
+    }
+
+    .sub-heading{
+        font-size: 14px;
+    }
+
+    .search-bars{
+        flex-direction: column;
+        width: 339px;
+        height: 208px;
+        padding: 20px;
+    }
+
+    .search-bars div,
+    .search-bars button{
+        margin-right: auto;
+    }
+
+    /* =======================
+    ======== third-section =====
+    ========================== */
+
+    .sec-section{
+        height: 628px;
+        padding: 55px 0 !important;
+        min-width: 100vw !important;
+        overflow-y: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .sec-section .para{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .sec-section .numbers{
+        flex-direction: column;
+        margin: 00px 18px 0 18px;
+        margin-right: 0 !important;
+        text-align: left;
+    }
+
+    .sec-section .para h2{
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        margin-bottom: 12px;
+        text-align: left;
+        max-width: 306px;
+        margin-right: 0;
+    }
+
+    .sec-section .para p{
+        margin-right: auto;
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 306px;
+        text-align: left;
+    }
+
+    .num-group{
+        align-items: flex-start;
+        margin-top: 28px;
+    }
+
+    .num-group:last-child{
+        margin-right: 26px !important;
+    }
+
+    .num-group .num{
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        align-items: flex-start;
+    }
+
+    .num-text{
+        font-size: 14px;
+        align-items: flex-start;
+        line-height: 24px;
+        margin-top: 0;
+    }
+
+
+    /* =======================
+    ======== third-section =====
+    ========================== */
+
+
+
+    .third-section{
+        flex-direction: column;
+    }
+
+    .third-page-img{
+        width: 280px;
+        height: 280px;
+        border-radius: 7px !important;
+    }
+
+    .agent-container{
+        width: 129.87px;
+        height: 141.79px;
+        left: 227.7px;
+        top: 1764.62px;
+    }
+
+    .agent-container img{
+        width: 35.74px;
+        height: 35.74px;
+    }
+
+    .agent-container .name{
+        font-size: 10.7234px;
+    }
+
+    .agent-container .job{
+        font-size: 8.34042px;
+    }
+
+    .agent-container button{
+        width: 72.68px;
+        height: 25.02px;
+        box-shadow: 8.34042px 2.38298px 14.2979px rgba(102, 55, 238, 0.07);
+        border-radius: 7px !important;
+    }
+
+    .agent-container button p{
+        font-size: 9.53191px;
+    }
+
+    .third-sec-para{
+        width: 339px;
+        height: 266px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .third-sec-para h2{
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        max-width: 306px;
+        margin-top: 38px;
+    }
+
+    .third-sec-para p{
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 306px;
+    }
+
+    .third-sec-para button{
+        width: 196px;
+        height: 58px;
+        border-radius: 6px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .third-sec-para button p{
+        font-size: 18px;
+        padding: 35px 15px;
+    }
+}
